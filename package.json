@@ -1,0 +1,24 @@
+{
+  "name": "paginapessoal",
+  "version": "1.0.0",
+  "description": "Pagina para estudos de HTML, CSS E JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuribrito01/paginaPessoal.git"
+  },
+  "author": "Yuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuribrito01/paginaPessoal/issues"
+  },
+  "homepage": "https://github.com/yuribrito01/paginaPessoal#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
