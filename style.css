@@ -1,0 +1,19 @@
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+   }
+
+#myPhoto{
+    width: 15%;
+    float: right;
+}
+
+#myText{
+    position: relative;
+}
+
+#about{
+    display: inline-block;
+    width: 100%;
+}
+  
