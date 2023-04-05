@@ -1,23 +1,35 @@
 nav li {
     display: inline-block;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 50px;
    }
+
+.navbar{
+  text-align: center;
+  background-color: rgba(70, 69, 141, 1); 
+}
 
 #myPhoto{
     width: 15%;
     float: right;
-}
-
-#myText{
-    position: relative;
+    justify-content: left;
+    align-items: center;
 }
 
 #about{
-    display: inline-block;
     width: 100%;
+    display: flex;   
+    justify-content: center;
+    margin-top: 1%;
+    background-color: rgba(40, 39, 129, 1);
 }
-  
 
+.aboutTopic{
+  margin-right: 18%;
+}
+
+#home{
+  text-align: center; 
+}
 
 
 
