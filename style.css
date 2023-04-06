@@ -1,30 +1,38 @@
-nav li {
+#navbar li {
     display: inline-block;
     margin: 0 0 0 50px;
+    justify-content: center;
    }
 
-.navbar{
+#navbar{
   text-align: center;
+  align-items: center;
   background-color: rgba(70, 69, 141, 1);
+  height: 40px;
 }
-
+a{
+  color: white;
+}
 #myPhoto{
     width: 15%;
     float: right;
     justify-content: left;
     align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #about{
     width: 100%;
     display: flex;   
     justify-content: center;
-    margin-top: 1%;
     background-color: rgba(40, 39, 129, 1);
 }
 
 .aboutTopic{
   margin-right: 18%;
+  text-align: center;
+  width: 500px;
 }
 
 #home{
@@ -78,10 +86,17 @@ p, li, h1, h2{
   background: rgba(31, 31, 37, 1);
   padding: 20px;
   width: 300px;
-
 }
 
 #juventude{
+  border: 2px solid black;
+  border-radius: 10px;
+  background: rgba(31, 31, 37, 1);
+  padding: 20px;
+  width: 300px;
+}
+
+#ciandt{
   border: 2px solid black;
   border-radius: 10px;
   background: rgba(31, 31, 37, 1);
